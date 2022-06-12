@@ -7,3 +7,7 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+.App-footer a {
+  color: var(--secondary-color);
+}
