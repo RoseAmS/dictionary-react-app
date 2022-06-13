@@ -1,4 +1,16 @@
+.Dictionary h1,
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
 .Dictionary .btn {
   background: var(--primary-color);
   font-weight: bold;
+}
+
+.Dictionary small {
+  text-align: left;
+  margin-left: 1rem;
+  opacity: 65%;
 }
