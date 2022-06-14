@@ -1,0 +1,10 @@
+.Antonyms {
+  margin: 0.8rem 0;
+  padding: 0;
+  font-size: 0.92rem;
+}
+
+.Antonyms li {
+  display: inline-block;
+  padding-right: 0.6rem;
+}

@@ -1,9 +1,10 @@
 :root {
-  --primary-color: #00ebc7;
-  --secondary-color: #ff5470;
-  --background-color: #fbfcfc;
-  --box-shadow: 6px 6px 12px #dfd3d3, -18px -18px 36px #fceff7;
-  --primary-font-color: #00214d;
+  --primary-color: #00fa96;
+  --secondary-color: #fb0066;
+  --background-color: #faf3fa;
+  --section-color: #fffdff;
+  --box-shadow: 6px 6px 10px #edeaea, -18px -18px 36px #fceff7;
+  --primary-font-color: #2c0e37;
   --font-family: "Orienta";
 }
 
@@ -14,4 +15,15 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Antonyms.css";
+
 export default function Antonyms(props) {
   if (props.antonyms.length > 0) {
     return (

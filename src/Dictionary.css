@@ -2,6 +2,8 @@
 h2 {
   font-weight: bold;
   text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .Dictionary .btn {
@@ -9,8 +11,24 @@ h2 {
   font-weight: bold;
 }
 
-.Dictionary small {
+.Dictionary section {
+  background: var(--section-color);
+  margin-top: 1.5rem;
+  padding: 1.7rem;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+
+.Dictionary input {
+  /* width: 100%; */
+  padding: 8px 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+}
+
+.Dictionary .hint {
+  font-size: 0.7rem;
   text-align: left;
-  margin-left: 1rem;
-  opacity: 65%;
+  margin-top: 0.5rem;
+  opacity: 60%;
 }

@@ -1,13 +1,9 @@
-body {
+.App {
   margin: 2rem;
 }
 
 .App-logo {
-  max-width: 4rem;
+  max-width: 3.3rem;
   margin: 0 auto;
   display: block;
-}
-
-.App-footer a {
-  color: var(--secondary-color);
 }
