@@ -3,7 +3,6 @@ import React from "react";
 import "./Phonetic.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetic);
   if (props.phonetic.audio.length > 0) {
     return (
       <div className="Phonetic">
